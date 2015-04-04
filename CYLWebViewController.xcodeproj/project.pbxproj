@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9AC3226F1ACFD67400E37AD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3226E1ACFD67400E37AD5 /* main.m */; };
 		9AC322721ACFD67400E37AD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322711ACFD67400E37AD5 /* AppDelegate.m */; };
-		9AC322751ACFD67400E37AD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322741ACFD67400E37AD5 /* ViewController.m */; };
 		9AC3227A1ACFD67400E37AD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC322791ACFD67400E37AD5 /* Images.xcassets */; };
 		9AC3227D1ACFD67400E37AD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC3227B1ACFD67400E37AD5 /* LaunchScreen.xib */; };
 		9AC322891ACFD67400E37AD5 /* CYLWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322881ACFD67400E37AD5 /* CYLWebViewControllerTests.m */; };
@@ -39,8 +38,6 @@
 		9AC3226E1ACFD67400E37AD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AC322701ACFD67400E37AD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AC322711ACFD67400E37AD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9AC322731ACFD67400E37AD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9AC322741ACFD67400E37AD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9AC322791ACFD67400E37AD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9AC3227C1ACFD67400E37AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9AC322821ACFD67400E37AD5 /* CYLWebViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYLWebViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,8 +116,6 @@
 				9AC322A21ACFD9B400E37AD5 /* ForwardArrowButton.m */,
 				9AC322921ACFD6D000E37AD5 /* WebViewController.h */,
 				9AC322931ACFD6D000E37AD5 /* WebViewController.m */,
-				9AC322731ACFD67400E37AD5 /* ViewController.h */,
-				9AC322741ACFD67400E37AD5 /* ViewController.m */,
 				9AC322791ACFD67400E37AD5 /* Images.xcassets */,
 				9AC3227B1ACFD67400E37AD5 /* LaunchScreen.xib */,
 				9AC3226C1ACFD67400E37AD5 /* Supporting Files */,
@@ -270,7 +265,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AC3229D1ACFD88900E37AD5 /* CustomButton.m in Sources */,
-				9AC322751ACFD67400E37AD5 /* ViewController.m in Sources */,
 				9AC322A01ACFD8FD00E37AD5 /* ShareButton.m in Sources */,
 				9AC322A31ACFD9B400E37AD5 /* ForwardArrowButton.m in Sources */,
 				9AC322B01ACFDAA600E37AD5 /* NSLayoutConstraint+PureLayout.m in Sources */,

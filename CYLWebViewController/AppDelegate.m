@@ -20,9 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     WebViewController *vc = [[WebViewController alloc] init];
- NSURL *baseURL = [NSURL URLWithString:@"http://weibo.com/luohanchenyilong/"];
+ NSURL *baseURL = [NSURL URLWithString:@"http://weibo.com"];
     vc.URL = baseURL;
     [self.window addSubview:vc.view];
+    vc.toolbar.hidden = NO;
     self.window.rootViewController = vc;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

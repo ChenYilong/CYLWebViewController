@@ -15,6 +15,7 @@
 
 //If you'd like to do something to/with the share button, this is an accessor for it
 @property (readonly) UIButton *shareButton;
+@property UIToolbar *toolbar;
 
 //This is just an event handler, the browser will still go back when you tap on the back button
 @property (nonatomic, copy) void (^tappedBackButton)(void);

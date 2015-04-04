@@ -32,7 +32,6 @@ UIScrollViewDelegate
 
 @property UIRefreshControl *refreshControl;
 @property UIWebView *webView;
-@property UIToolbar *toolbar;
 
 @property UIBarButtonItem *backItem;
 @property UIBarButtonItem *forwardItem;
