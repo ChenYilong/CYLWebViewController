@@ -1,5 +1,5 @@
 # CYLWebViewController
-WebViewControllerDemo,可App类似 Safari 的效果，能随着滑动隐藏底部工具栏，支持下拉刷新
+WebViewControllerDemo,类似 Safari 的效果，能随着滑动隐藏底部工具栏，支持下拉刷新
 
 
 How to use：
