@@ -20,7 +20,7 @@ if you want toolBar to be hidden all the time ,you can do like this
  
 ``` Objective-C
     [self.window addSubview:vc.view];
-    vc.toolbar.hidden = NO;
+    vc.toolbar.hidden = YES;
 ```
 require  [PureLayout](https://github.com/smileyborg/PureLayout)
 
