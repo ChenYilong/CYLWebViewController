@@ -12,7 +12,6 @@
 		9AC3227A1ACFD67400E37AD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC322791ACFD67400E37AD5 /* Images.xcassets */; };
 		9AC3227D1ACFD67400E37AD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC3227B1ACFD67400E37AD5 /* LaunchScreen.xib */; };
 		9AC322891ACFD67400E37AD5 /* CYLWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322881ACFD67400E37AD5 /* CYLWebViewControllerTests.m */; };
-		9AC322CA1ACFE83600E37AD5 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322B41ACFE83600E37AD5 /* WebViewController.m */; };
 		9AC322CB1ACFE83600E37AD5 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322B91ACFE83600E37AD5 /* ALView+PureLayout.m */; };
 		9AC322CC1ACFE83600E37AD5 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322BB1ACFE83600E37AD5 /* NSArray+PureLayout.m */; };
 		9AC322CD1ACFE83600E37AD5 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322BD1ACFE83600E37AD5 /* NSLayoutConstraint+PureLayout.m */; };
@@ -20,6 +19,7 @@
 		9AC322CF1ACFE83600E37AD5 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322C51ACFE83600E37AD5 /* CustomButton.m */; };
 		9AC322D01ACFE83600E37AD5 /* ForwardArrowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322C71ACFE83600E37AD5 /* ForwardArrowButton.m */; };
 		9AC322D11ACFE83600E37AD5 /* ShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322C91ACFE83600E37AD5 /* ShareButton.m */; };
+		9AC322F51ACFEB0B00E37AD5 /* CYLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322F41ACFEB0B00E37AD5 /* CYLWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +43,6 @@
 		9AC322821ACFD67400E37AD5 /* CYLWebViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYLWebViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC322871ACFD67400E37AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AC322881ACFD67400E37AD5 /* CYLWebViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLWebViewControllerTests.m; sourceTree = "<group>"; };
-		9AC322B31ACFE83600E37AD5 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		9AC322B41ACFE83600E37AD5 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		9AC322B81ACFE83600E37AD5 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
 		9AC322B91ACFE83600E37AD5 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
 		9AC322BA1ACFE83600E37AD5 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
@@ -62,6 +60,8 @@
 		9AC322C71ACFE83600E37AD5 /* ForwardArrowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardArrowButton.m; sourceTree = "<group>"; };
 		9AC322C81ACFE83600E37AD5 /* ShareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareButton.h; sourceTree = "<group>"; };
 		9AC322C91ACFE83600E37AD5 /* ShareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareButton.m; sourceTree = "<group>"; };
+		9AC322F31ACFEB0B00E37AD5 /* CYLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLWebViewController.h; sourceTree = "<group>"; };
+		9AC322F41ACFEB0B00E37AD5 /* CYLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +152,8 @@
 		9AC322B21ACFE83600E37AD5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9AC322B31ACFE83600E37AD5 /* WebViewController.h */,
-				9AC322B41ACFE83600E37AD5 /* WebViewController.m */,
+				9AC322F31ACFEB0B00E37AD5 /* CYLWebViewController.h */,
+				9AC322F41ACFEB0B00E37AD5 /* CYLWebViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -304,11 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC322F51ACFEB0B00E37AD5 /* CYLWebViewController.m in Sources */,
 				9AC322D01ACFE83600E37AD5 /* ForwardArrowButton.m in Sources */,
 				9AC322CF1ACFE83600E37AD5 /* CustomButton.m in Sources */,
 				9AC322721ACFD67400E37AD5 /* AppDelegate.m in Sources */,
 				9AC322D11ACFE83600E37AD5 /* ShareButton.m in Sources */,
-				9AC322CA1ACFE83600E37AD5 /* WebViewController.m in Sources */,
 				9AC3226F1ACFD67400E37AD5 /* main.m in Sources */,
 				9AC322CB1ACFE83600E37AD5 /* ALView+PureLayout.m in Sources */,
 				9AC322CE1ACFE83600E37AD5 /* BackArrowButton.m in Sources */,

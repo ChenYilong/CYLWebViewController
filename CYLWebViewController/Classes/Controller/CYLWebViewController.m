@@ -7,7 +7,7 @@
 //
 
 //#import "CustomButtons.h"
-#import "WebViewController.h"
+#import "CYLWebViewController.h"
 #import "ForwardArrowButton.h"
 #import "ShareButton.h"
 #import "BackArrowButton.h"
@@ -25,7 +25,7 @@ CGFloat const WebViewControllertoolbarHeight = 44.0f;
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Interface
 
-@interface WebViewController ()
+@interface CYLWebViewController ()
 <
 UIScrollViewDelegate
 >
@@ -46,7 +46,7 @@ UIScrollViewDelegate
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Implementation
 
-@implementation WebViewController
+@implementation CYLWebViewController
 
 
 ////////////////////////////////////////////////////////////////////////////////

@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "WebViewController.h"
+#import "CYLWebViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,8 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    WebViewController *vc = [[WebViewController alloc] init];
- NSURL *baseURL = [NSURL URLWithString:@"http://weibo.com"];
+    CYLWebViewController *vc = [[CYLWebViewController alloc] init];
+ NSURL *baseURL = [NSURL URLWithString:@"http://weibo.com/luohanchenyilong/"];
     vc.URL = baseURL;
     [self.window addSubview:vc.view];
     vc.toolbar.hidden = NO;

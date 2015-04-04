@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface WebViewController : UIViewController<UIWebViewDelegate>
+@interface CYLWebViewController : UIViewController<UIWebViewDelegate>
 
 //If you set the URL while the WebViewController is loaded, it will load the URL
 @property (nonatomic) NSURL *URL;
