@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "WebViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    WebViewController *vc = [[WebViewController alloc] init];
+ NSURL *baseURL = [NSURL URLWithString:@"http://weibo.com/luohanchenyilong/"];
+    vc.URL = baseURL;
+    [self.window addSubview:vc.view];
+    self.window.rootViewController = vc;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
