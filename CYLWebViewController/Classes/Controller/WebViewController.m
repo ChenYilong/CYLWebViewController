@@ -12,7 +12,7 @@
 #import "ShareButton.h"
 #import "BackArrowButton.h"
 
-#import "PureLayout/PureLayout.h"
+#import "PureLayout.h"
 #define floatVal(val) ((float)val/(float)255)
 #define lightBlueColor [UIColor colorWithRed:floatVal(1) green:floatVal(126) blue:floatVal(204) alpha:1.0f]
 

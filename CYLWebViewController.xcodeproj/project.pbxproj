@@ -12,14 +12,14 @@
 		9AC3227A1ACFD67400E37AD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC322791ACFD67400E37AD5 /* Images.xcassets */; };
 		9AC3227D1ACFD67400E37AD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC3227B1ACFD67400E37AD5 /* LaunchScreen.xib */; };
 		9AC322891ACFD67400E37AD5 /* CYLWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322881ACFD67400E37AD5 /* CYLWebViewControllerTests.m */; };
-		9AC322941ACFD6D000E37AD5 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322931ACFD6D000E37AD5 /* WebViewController.m */; };
-		9AC3229A1ACFD83C00E37AD5 /* BackArrowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322991ACFD83C00E37AD5 /* BackArrowButton.m */; };
-		9AC3229D1ACFD88900E37AD5 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3229C1ACFD88900E37AD5 /* CustomButton.m */; };
-		9AC322A01ACFD8FD00E37AD5 /* ShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3229F1ACFD8FD00E37AD5 /* ShareButton.m */; };
-		9AC322A31ACFD9B400E37AD5 /* ForwardArrowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322A21ACFD9B400E37AD5 /* ForwardArrowButton.m */; };
-		9AC322AE1ACFDAA600E37AD5 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322A61ACFDAA600E37AD5 /* ALView+PureLayout.m */; };
-		9AC322AF1ACFDAA600E37AD5 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322A81ACFDAA600E37AD5 /* NSArray+PureLayout.m */; };
-		9AC322B01ACFDAA600E37AD5 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322AA1ACFDAA600E37AD5 /* NSLayoutConstraint+PureLayout.m */; };
+		9AC322CA1ACFE83600E37AD5 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322B41ACFE83600E37AD5 /* WebViewController.m */; };
+		9AC322CB1ACFE83600E37AD5 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322B91ACFE83600E37AD5 /* ALView+PureLayout.m */; };
+		9AC322CC1ACFE83600E37AD5 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322BB1ACFE83600E37AD5 /* NSArray+PureLayout.m */; };
+		9AC322CD1ACFE83600E37AD5 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322BD1ACFE83600E37AD5 /* NSLayoutConstraint+PureLayout.m */; };
+		9AC322CE1ACFE83600E37AD5 /* BackArrowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322C31ACFE83600E37AD5 /* BackArrowButton.m */; };
+		9AC322CF1ACFE83600E37AD5 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322C51ACFE83600E37AD5 /* CustomButton.m */; };
+		9AC322D01ACFE83600E37AD5 /* ForwardArrowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322C71ACFE83600E37AD5 /* ForwardArrowButton.m */; };
+		9AC322D11ACFE83600E37AD5 /* ShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC322C91ACFE83600E37AD5 /* ShareButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,25 +43,25 @@
 		9AC322821ACFD67400E37AD5 /* CYLWebViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYLWebViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC322871ACFD67400E37AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AC322881ACFD67400E37AD5 /* CYLWebViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLWebViewControllerTests.m; sourceTree = "<group>"; };
-		9AC322921ACFD6D000E37AD5 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		9AC322931ACFD6D000E37AD5 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		9AC322981ACFD83C00E37AD5 /* BackArrowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackArrowButton.h; sourceTree = "<group>"; };
-		9AC322991ACFD83C00E37AD5 /* BackArrowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackArrowButton.m; sourceTree = "<group>"; };
-		9AC3229B1ACFD88900E37AD5 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
-		9AC3229C1ACFD88900E37AD5 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
-		9AC3229E1ACFD8FD00E37AD5 /* ShareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareButton.h; sourceTree = "<group>"; };
-		9AC3229F1ACFD8FD00E37AD5 /* ShareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareButton.m; sourceTree = "<group>"; };
-		9AC322A11ACFD9B400E37AD5 /* ForwardArrowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardArrowButton.h; sourceTree = "<group>"; };
-		9AC322A21ACFD9B400E37AD5 /* ForwardArrowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardArrowButton.m; sourceTree = "<group>"; };
-		9AC322A51ACFDAA600E37AD5 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
-		9AC322A61ACFDAA600E37AD5 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
-		9AC322A71ACFDAA600E37AD5 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
-		9AC322A81ACFDAA600E37AD5 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		9AC322A91ACFDAA600E37AD5 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		9AC322AA1ACFDAA600E37AD5 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		9AC322AB1ACFDAA600E37AD5 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
-		9AC322AC1ACFDAA600E37AD5 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
-		9AC322AD1ACFDAA600E37AD5 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		9AC322B31ACFE83600E37AD5 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		9AC322B41ACFE83600E37AD5 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		9AC322B81ACFE83600E37AD5 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		9AC322B91ACFE83600E37AD5 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		9AC322BA1ACFE83600E37AD5 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		9AC322BB1ACFE83600E37AD5 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		9AC322BC1ACFE83600E37AD5 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		9AC322BD1ACFE83600E37AD5 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		9AC322BE1ACFE83600E37AD5 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		9AC322BF1ACFE83600E37AD5 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		9AC322C01ACFE83600E37AD5 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		9AC322C21ACFE83600E37AD5 /* BackArrowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackArrowButton.h; sourceTree = "<group>"; };
+		9AC322C31ACFE83600E37AD5 /* BackArrowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackArrowButton.m; sourceTree = "<group>"; };
+		9AC322C41ACFE83600E37AD5 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		9AC322C51ACFE83600E37AD5 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		9AC322C61ACFE83600E37AD5 /* ForwardArrowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardArrowButton.h; sourceTree = "<group>"; };
+		9AC322C71ACFE83600E37AD5 /* ForwardArrowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardArrowButton.m; sourceTree = "<group>"; };
+		9AC322C81ACFE83600E37AD5 /* ShareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareButton.h; sourceTree = "<group>"; };
+		9AC322C91ACFE83600E37AD5 /* ShareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,19 +103,9 @@
 		9AC3226B1ACFD67400E37AD5 /* CYLWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				9AC322A41ACFDAA600E37AD5 /* PureLayout */,
+				9AC322B11ACFE83600E37AD5 /* Classes */,
 				9AC322701ACFD67400E37AD5 /* AppDelegate.h */,
 				9AC322711ACFD67400E37AD5 /* AppDelegate.m */,
-				9AC322981ACFD83C00E37AD5 /* BackArrowButton.h */,
-				9AC322991ACFD83C00E37AD5 /* BackArrowButton.m */,
-				9AC3229B1ACFD88900E37AD5 /* CustomButton.h */,
-				9AC3229C1ACFD88900E37AD5 /* CustomButton.m */,
-				9AC3229E1ACFD8FD00E37AD5 /* ShareButton.h */,
-				9AC3229F1ACFD8FD00E37AD5 /* ShareButton.m */,
-				9AC322A11ACFD9B400E37AD5 /* ForwardArrowButton.h */,
-				9AC322A21ACFD9B400E37AD5 /* ForwardArrowButton.m */,
-				9AC322921ACFD6D000E37AD5 /* WebViewController.h */,
-				9AC322931ACFD6D000E37AD5 /* WebViewController.m */,
 				9AC322791ACFD67400E37AD5 /* Images.xcassets */,
 				9AC3227B1ACFD67400E37AD5 /* LaunchScreen.xib */,
 				9AC3226C1ACFD67400E37AD5 /* Supporting Files */,
@@ -149,20 +139,70 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9AC322A41ACFDAA600E37AD5 /* PureLayout */ = {
+		9AC322B11ACFE83600E37AD5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9AC322A51ACFDAA600E37AD5 /* ALView+PureLayout.h */,
-				9AC322A61ACFDAA600E37AD5 /* ALView+PureLayout.m */,
-				9AC322A71ACFDAA600E37AD5 /* NSArray+PureLayout.h */,
-				9AC322A81ACFDAA600E37AD5 /* NSArray+PureLayout.m */,
-				9AC322A91ACFDAA600E37AD5 /* NSLayoutConstraint+PureLayout.h */,
-				9AC322AA1ACFDAA600E37AD5 /* NSLayoutConstraint+PureLayout.m */,
-				9AC322AB1ACFDAA600E37AD5 /* PureLayout+Internal.h */,
-				9AC322AC1ACFDAA600E37AD5 /* PureLayout.h */,
-				9AC322AD1ACFDAA600E37AD5 /* PureLayoutDefines.h */,
+				9AC322B21ACFE83600E37AD5 /* Controller */,
+				9AC322B51ACFE83600E37AD5 /* Tool */,
+				9AC322C11ACFE83600E37AD5 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9AC322B21ACFE83600E37AD5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AC322B31ACFE83600E37AD5 /* WebViewController.h */,
+				9AC322B41ACFE83600E37AD5 /* WebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9AC322B51ACFE83600E37AD5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				9AC322B61ACFE83600E37AD5 /* Lib */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		9AC322B61ACFE83600E37AD5 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				9AC322B71ACFE83600E37AD5 /* PureLayout */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		9AC322B71ACFE83600E37AD5 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				9AC322B81ACFE83600E37AD5 /* ALView+PureLayout.h */,
+				9AC322B91ACFE83600E37AD5 /* ALView+PureLayout.m */,
+				9AC322BA1ACFE83600E37AD5 /* NSArray+PureLayout.h */,
+				9AC322BB1ACFE83600E37AD5 /* NSArray+PureLayout.m */,
+				9AC322BC1ACFE83600E37AD5 /* NSLayoutConstraint+PureLayout.h */,
+				9AC322BD1ACFE83600E37AD5 /* NSLayoutConstraint+PureLayout.m */,
+				9AC322BE1ACFE83600E37AD5 /* PureLayout+Internal.h */,
+				9AC322BF1ACFE83600E37AD5 /* PureLayout.h */,
+				9AC322C01ACFE83600E37AD5 /* PureLayoutDefines.h */,
 			);
 			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		9AC322C11ACFE83600E37AD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AC322C21ACFE83600E37AD5 /* BackArrowButton.h */,
+				9AC322C31ACFE83600E37AD5 /* BackArrowButton.m */,
+				9AC322C41ACFE83600E37AD5 /* CustomButton.h */,
+				9AC322C51ACFE83600E37AD5 /* CustomButton.m */,
+				9AC322C61ACFE83600E37AD5 /* ForwardArrowButton.h */,
+				9AC322C71ACFE83600E37AD5 /* ForwardArrowButton.m */,
+				9AC322C81ACFE83600E37AD5 /* ShareButton.h */,
+				9AC322C91ACFE83600E37AD5 /* ShareButton.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,16 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC3229D1ACFD88900E37AD5 /* CustomButton.m in Sources */,
-				9AC322A01ACFD8FD00E37AD5 /* ShareButton.m in Sources */,
-				9AC322A31ACFD9B400E37AD5 /* ForwardArrowButton.m in Sources */,
-				9AC322B01ACFDAA600E37AD5 /* NSLayoutConstraint+PureLayout.m in Sources */,
-				9AC322AF1ACFDAA600E37AD5 /* NSArray+PureLayout.m in Sources */,
-				9AC322AE1ACFDAA600E37AD5 /* ALView+PureLayout.m in Sources */,
-				9AC3229A1ACFD83C00E37AD5 /* BackArrowButton.m in Sources */,
+				9AC322D01ACFE83600E37AD5 /* ForwardArrowButton.m in Sources */,
+				9AC322CF1ACFE83600E37AD5 /* CustomButton.m in Sources */,
 				9AC322721ACFD67400E37AD5 /* AppDelegate.m in Sources */,
+				9AC322D11ACFE83600E37AD5 /* ShareButton.m in Sources */,
+				9AC322CA1ACFE83600E37AD5 /* WebViewController.m in Sources */,
 				9AC3226F1ACFD67400E37AD5 /* main.m in Sources */,
-				9AC322941ACFD6D000E37AD5 /* WebViewController.m in Sources */,
+				9AC322CB1ACFE83600E37AD5 /* ALView+PureLayout.m in Sources */,
+				9AC322CE1ACFE83600E37AD5 /* BackArrowButton.m in Sources */,
+				9AC322CC1ACFE83600E37AD5 /* NSArray+PureLayout.m in Sources */,
+				9AC322CD1ACFE83600E37AD5 /* NSLayoutConstraint+PureLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +498,7 @@
 				9AC3228E1ACFD67400E37AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AC3228F1ACFD67400E37AD5 /* Build configuration list for PBXNativeTarget "CYLWebViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +507,7 @@
 				9AC322911ACFD67400E37AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
